@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../public/ExpImage.jpg);
+  background-size: cover;
+}
+
+#expense-tracker{
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.add-transaction{
+  border: 2px solid rgb(7, 7, 7);
+  box-shadow: 5px 5px 5px rgb(54, 53, 53);
+  max-width: 30%;
+  margin-left: 10%;
+  border-radius: 15px;
+  padding: 18px;
+  display: inline-block;
+  position: absolute;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+}
+
+form h3{
+  padding-bottom: 25px;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+form label{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+form label p{
+  font-size: 10px;
+}
+
+form input{
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#add{
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(171, 89, 248);
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.bal-inc-exp{
+  padding: 5px;
+  width: 400px;
+  margin-left: 50%;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.balance {
+  padding: 10px;
+}
+
+#total{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+ .income-expense{
+  border: 1px solid rgb(7, 7, 7);
+  width: 360px;
+  box-shadow: 3px 5px 5px rgb(44, 45, 45);
+  display: inline-flex;
+  
+}
+
+.income{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+  border-right: 1px solid rgb(11, 11, 11);
+  
+  
+}
+
+.expense{
+  display: inline-block;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+} 
+
+
+#calculated-expense{
+  color: rgb(215, 47, 47);
+  font-size: 25px;
+}
+
+#calculated-income{
+  color: rgb(35, 195, 35);
+  font-size: 25px;
+}
+
+.bal-inc-exp p{
+  font-weight: 700;
+}
+
+.transactions{
+  margin-top: 50px;
+  box-shadow: 0px 1px 1px 0px rgb(39, 38, 38);;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(3, 3, 3);
+  text-align: left;
+  padding-left: 15px;
+}
+
+.transactions h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactions li:last-child {
+  border-bottom: none; 
+}
+
+.transactions .greenText {
+  color: #2ec044; 
+  font-weight: 600;
+}
+
+.transactions .redText {
+  color: #d72e2e; 
+  font-weight: 600;
+}
+
+.transactions button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #a80707; 
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+}
